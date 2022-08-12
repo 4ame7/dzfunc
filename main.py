@@ -1,4 +1,4 @@
-def function_0(a):
+def function(a):
     if type(a) == tuple:
         print('words', len(a))
     elif type(a) == list:
@@ -8,7 +8,7 @@ def function_0(a):
     else:
         print('Unknown type')
 
-function_0(('qwe', 2, 'asdsad', 'qwqsasdzxzc'))
-function_0([1, 2, 3, 'a', 'b', 'c'])
-function_0('abcd')
-function_0({1: 2})
+function(('qwe', 2, 'asdsad', 'qwqsasdzxzc'))
+function([1, 2, 3, 'a', 'b', 'c'])
+function('abcd')
+function({1: 2})
